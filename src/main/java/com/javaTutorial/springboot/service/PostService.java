@@ -6,8 +6,9 @@ import com.javaTutorial.springboot.web.dto.PostResponseDto;
 import com.javaTutorial.springboot.web.dto.PostSaveRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import javax.transaction.Transactional;
+//import javax.transaction.Transactional;
 
 @RequiredArgsConstructor
 @Service
