@@ -2,6 +2,7 @@ package com.javaTutorial.springboot.web;
 
 import com.javaTutorial.springboot.domain.posts.Post;
 import com.javaTutorial.springboot.domain.posts.PostRepository;
+import com.javaTutorial.springboot.web.dto.PostSaveRequestDto;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

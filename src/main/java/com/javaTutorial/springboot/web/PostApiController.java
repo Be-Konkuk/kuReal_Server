@@ -2,6 +2,7 @@ package com.javaTutorial.springboot.web;
 
 import com.javaTutorial.springboot.service.PostService;
 import com.javaTutorial.springboot.web.dto.PostResponseDto;
+import com.javaTutorial.springboot.web.dto.PostSaveRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
