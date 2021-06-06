@@ -3,6 +3,7 @@ package com.javaTutorial.springboot.service;
 import com.javaTutorial.springboot.domain.posts.Post;
 import com.javaTutorial.springboot.domain.posts.PostRepository;
 import com.javaTutorial.springboot.web.dto.PostResponseDto;
+import com.javaTutorial.springboot.web.dto.PostSaveRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
